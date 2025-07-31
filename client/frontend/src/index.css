@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Fira Code', monospace;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border: 2px solid #4caf50;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #2c2c2c;
+  border-bottom: 1px solid #444;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.run-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editor-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.code-editor {
+  flex: 1;
+  background-color: #1e1e1e;
+  color: #f8f8f2;
+  padding: 16px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 100%;
+}
+
+.output-container {
+  width: 40%;
+  background-color: #121212;
+  padding: 16px;
+  border-left: 1px solid #333;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.output-container h2 {
+  margin: 0;
+  color: #4caf50;
+}
+
+.input-box {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+  border: none;
+  resize: vertical;
+  min-height: 80px;
+}
+
+pre {
+  background-color: #1a1a1a;
+  color: #00ff90;
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
