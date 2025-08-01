@@ -10,7 +10,7 @@ function App() {
 
   const runCode = async () => {
     try {
-      const res = await fetch('http://localhost:5000/run', {
+      const res = await fetch('https://compilex-ft0f.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code, input, language })
