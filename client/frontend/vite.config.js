@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/run': 'http://localhost:5000',
+      '/run': 'https://compilex-ft0f.onrender.com',
     },
   },
 });
