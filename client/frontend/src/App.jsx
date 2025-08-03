@@ -10,7 +10,7 @@ function App() {
 
   const runCode = async () => {
     try {
-      const res = await fetch('https://compilex-ft0f.onrender.com', {
+      const res = await fetch('https://compiler-backend-3576.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code, input, language })
